@@ -107,5 +107,5 @@ function Document({
 }
 
 function Layout({ children }: { children: React.ReactNode }) {
-    return <div className="layout">LayoutContent</div>;
+    return <div className="root">{children}</div>;
 }
